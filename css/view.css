@@ -1,0 +1,960 @@
+/*********owleats_home.php********/
+#home_page {
+	margin: 10px 10px;
+	border-width: 3px;
+	border-color:#F4F4F4;
+	border-style: solid;
+	padding: 10px 10px;
+
+}
+#homelogo {
+	width: 60%;
+	
+}
+#nosignup {
+	text-align: center;
+}
+#home_title{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4em;
+	color: black;
+	text-decoration: none;
+	
+}
+
+#home_subtitle{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+}
+
+#user_error{
+	font-family: 'Montserrat', sans-serif;
+	color: white;	
+}
+
+#username{
+	width: 300px; 
+	height: 40px; 
+	padding: 5px;
+	font-size: 1em;
+	border-top-left-radius: .25em;
+	border-top-right-radius: .25em;
+	
+}
+#password{
+	width: 300px; 
+	height: 40px; 
+	padding: 5px;
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	font-size: 1em;
+}
+
+#logBtn {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #FFF;
+	background:#9E2424; 
+	font-weight: bold;
+	font-size: 100%;
+	border-color: #94221F;
+	border-radius: .25em;
+		}
+			
+#logBtn:hover {
+	text-decoration: none;
+	color: black;
+	background:#9E2424;
+	cursor: pointer;	
+}
+			
+#signupBtn {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #FFF;
+	background:#9E2424; 
+	font-weight: bold;
+	font-size: 100%;
+	border-color: #94221F;
+	border-radius: .25em;
+	float: right;
+	
+}
+
+#signupBtn:hover {
+	text-decoration: none;
+	color: black;
+	background:#9E2424;
+	
+}
+			
+#home_submit {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #FFF;
+	background:#9E2424; 
+	font-weight: bold;
+	font-size: 100%;
+	border-color: #94221F;
+	border-radius: .25em;
+	width: 315px; 
+	height: 40px;
+	color: #FFF;
+	 
+}	
+		
+#home_submit:hover {
+	text-decoration: none;
+	color: black;
+	background:#9E2424;
+	cursor: pointer;
+	
+}				
+				
+/********************************/
+/*********signup.php********/
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+}
+a:hover {
+	color: blue;
+}
+#signup_menu {
+	text-align: center;
+	margin: 10px 10px;
+	border-width: 3px;
+	border-color:#F4F4F4;
+	border-style: solid;
+	padding: 10px 10px;
+}
+
+#firstname {
+	width: 300px; 
+	height: 40px; 
+	padding: 5px;
+	font-size: 1em;
+	border-top-left-radius: .25em;
+	border-top-right-radius: .25em;
+	border-bottom: none;
+} 
+
+
+#lastname, #email, #phonenumber, #username2 {
+	width: 300px; 
+	height: 40px; 
+	padding: 5px;
+	font-size: 1em; 
+	}
+
+#password2 {
+	width: 300px; 
+	height: 40px; 
+	padding: 5px;
+	font-size: 1em;
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	border-top: none;
+} 
+
+#submit {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #FFF;
+	background:#9E2424; 
+	font-weight: bold;
+	font-size: 100%;
+	border-color: #94221F;
+	border-radius: .25em;
+}
+
+#submit:hover {
+	color: black;
+}
+#backBtn {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #FFF;
+	background:#9E2424; 
+	font-weight: bold;
+	font-size: 100%;
+	border-color: #94221F;
+	border-radius: .25em;
+}
+
+
+/********************************/							
+/*********index.php********/
+
+.form_description{
+	text-align: center;
+}
+
+#logoutform {
+	float: right;
+}
+
+#index_title{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
+}
+
+#main_body {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#btnNewOrder {
+	text-decoration: none;
+	color: #FFF;
+	background:#9E2424; 
+	font-weight: bold;
+	font-size: 100%;
+	border-color: #94221F;
+	border-radius: .25em;
+}
+#btnNewOrder:hover {
+	text-decoration: none;
+	color: black;
+	background:#9E2424;
+	
+}
+
+#btnOldOrder {
+	text-decoration: none;
+	color: #FFF;
+	background:#9E2424; 
+	font-weight: bold;
+	font-size: 100%;
+	border-color: #94221F;
+	border-radius: .25em;
+}
+#btnOldOrder:hover {
+	text-decoration: none;
+	color: black;
+	background:#9E2424;
+}
+	
+
+#logoutform {
+	text-decoration: none;
+	color: #FFF;
+	background:#9E2424; 
+	font-weight: bold;
+	font-size: 100%;
+	border-color: #94221F;
+	border-radius: .25em;	
+}
+#logoutform:hover {
+	text-decoration: none;
+	color: black;
+	background:#9E2424;
+	
+}
+
+
+/********************************/
+/*********vendorlogin.php********/
+
+#temple {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#vendor_title{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
+}
+
+#vendor_submit {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #FFF;
+	background:#9E2424; 
+	font-weight: bold;
+	font-size: 100%;
+	border-color: #94221F;
+	border-radius: .25em;
+}	
+		
+#vendor_submit:hover {
+	text-decoration: none;
+	color: black;
+	background:#9E2424;
+	
+}
+
+
+/********************************/
+
+/*********vendors.php********/
+#home_page h1, h2 {
+	text-align: center;
+}
+
+#logoutform {
+	float: right;
+}
+
+#logoutBtn {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	background:#EBEBFF; 
+	font-weight: bold;
+	font-size: 90%;
+	border-color: #94221F;
+	border-radius: .25em;
+
+}	
+
+#logoutBtn:hover {
+	text-decoration: none;
+	color: black;
+	background:#9E2424;
+	
+	
+}	
+
+.vendorbuttons {
+     text-decoration: none; 
+     padding:0!important;
+     font: inherit;
+     /*border is optional*/ 
+     cursor: pointer;
+     border-radius: .50em;
+     width: 100%;
+     height: 100%;
+
+}
+
+.vendorbuttons:hover {
+	background-color: #F0F0FF;
+	color: #9E2424;
+}
+
+.vendortable img {
+	width = 100px;
+	height = 100px;
+	
+}
+
+
+
+@media only screen and (max-width:600px) {
+	
+		#vendor table th tr td {
+		display: block;
+		text-align: center;
+		width: 100%;
+		height: 50px;
+
+		}
+		/*#vendor_rows tr td{
+			text-align: center;
+			border: .5px;
+			border: thin;
+			border-color: #F3F3F3;
+		}*/
+		.vendorimg, #th_1, #td_1 {
+			display: none;
+		}
+		#readyorders {
+			width: 100%;
+			height: 100%;
+			
+		}
+		#readorderstable{
+			margin: 0 auto;
+		}
+		
+		.vendorbuttons {
+			width: 100%;
+     		height: 50px;
+		}
+		#popUpDiv {
+		position:absolute;
+		width: 200px;
+		height: 200px;
+		border: 5px solid #000;
+		z-index: 9002;
+			
+			
+		}
+
+}
+
+
+#header {
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background:#9E2424;
+}
+
+
+/*#vendor table { 
+color: #333; /* Lighten up font color */
+/*font-family: 'Open Sans', sans-serif;
+width: 100%; 
+border-collapse: 
+collapse; border-spacing: 0; 
+} */
+
+#readyorderstable {
+	color: black;
+	background-color: #F3F3F3;
+	border-radius: 0px;
+
+}
+
+#tr_rot {
+	border-radius: 0px;
+	border: 1px solid #CCC;
+}
+
+
+#vendor, #th_2, #th_1, #td_3, #order {
+	border: 1px solid #CCC; 
+	height: 30px; /* Make cells a bit taller */
+	text-align: center;
+	background: #F3F3F3;
+	font-weight: bold;
+	border-radius: .50em;
+	border-spacing: 10px;
+	
+}
+
+
+
+#vendortable {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	border-collapse: collapse;
+	
+	
+}
+
+th {
+	text-decoration: underline;
+	font-weight: 900;
+}
+
+.tablerows {
+	background:none!important;
+    border:none; 
+    padding:0!important;
+    font: inherit;
+    /*border is optional*/ 
+    cursor: pointer;
+	color: #FFF;
+	background:#9E2424; 
+	font-weight: bold;
+	font-size: 100%;
+	border-color: black;
+	border-radius: .25em;
+}
+
+#food_link {
+	color: white;
+}					
+
+#food_link:hover {
+	color: black;
+}
+
+
+
+#ordertable{
+	color: gray;
+	width: 100%;	
+	font-family: 'Montserrat', sans-serif;
+
+}
+#ordertable th {
+	color: black;
+	text-decoration: underline;
+
+
+}
+#owleats{
+	width: 30%;
+	
+}
+#logoutBtn {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	background:#EBEBFF; 
+	font-weight: bold;
+	font-size: 90%;
+	border-color: #94221F;
+	border-radius: .25em;
+}	
+
+#logoutBtn:hover {
+	text-decoration: none;
+	color: black;
+	background:#9E2424;
+	
+}						
+
+#vendorBtn {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #FFF;
+	background:#9E2424; 
+	font-weight: bold;
+	font-size: 100%;
+	border-color: #94221F;
+	border-radius: .25em;
+}
+
+#vendorBtn:hover {
+	text-decoration: none;
+	color: black;
+	background:#9E2424;
+}
+.vendorbuttons {
+    background:none!important;
+    border:none; 
+    padding:0!important;
+    font: inherit;
+    /*border is optional*/ 
+    cursor: pointer;
+	color: #FFF;
+	background:#9E2424; 
+	font-weight: bold;
+	font-size: 100%;
+	border-color: black;
+	border-radius: .25em;
+}
+
+.vendorbuttons:hover {
+	text-decoration: none;
+	color: black;
+	background:#9E2424;
+	
+}	
+
+.vendortable img {
+	width: 100px;
+	height: 100px;
+		
+}
+
+body {
+	background:#9E2424;
+}
+
+/*#content {
+	width: 90.75%;
+	min-height: 760px;
+	margin: 0 auto;
+	background: white;
+	
+}*/
+
+
+#readyorderstable {
+	color: black;
+	background-color: #F3F3F3;
+	border-radius: 0px;
+
+}
+
+#tr_rot {
+	border-radius: 0px;
+	border: 1px solid #CCC;
+}
+
+
+#vendor, #th_2, #th_1, #td_3 {
+	border: 1px solid #CCC; 
+	height: 30px; /* Make cells a bit taller */
+	text-align: center;
+	background: #F3F3F3;
+	font-weight: bold;
+	border-radius: .50em;
+	
+}
+
+
+/*********menu.php********/
+
+.itemstable {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	border-collapse: collapse;
+	width: 60%;
+	color: #333; /* Lighten up font color */
+	border: 1px solid #CCC; 
+	height: 30px; /* Make cells a bit taller */
+	text-align: center;
+	background: #F3F3F3;
+	font-weight: bold;
+	border-radius: .50em;
+}
+
+.itemstable a{
+	font-size: .4em !important;
+}
+#menubuttons {
+	font-size: .4em;
+}
+
+#grubtable {
+	text-align: center;
+	color: white;
+	width: 50%;
+}
+
+
+.vendorbuttons {
+     background:none!important;
+     border:none; 
+     color: blue;
+     padding:0!important;
+     font: inherit;
+     /*border is optional*/
+     border-bottom:1px solid #444; 
+     cursor: pointer;
+}
+h2, h1, p {
+	font-family: 'Open Sans', sans-serif;
+}
+.vendortable img {
+	width = 100px;
+	height = 100px;
+	
+}
+
+.header {
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+
+#clickdelete {
+	display: none; 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+
+
+body {
+	background:#9E2424;
+}
+
+#content {
+	width: 83.3333333%; /** 800 / 960 = .8333 */
+	min-height: 760px;
+	margin: 0 auto;
+	background: white;
+	overflow: hidden;
+
+	
+}
+
+
+.menutable {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.9em;
+	
+}
+.menutable p {
+	font-family: 'Bangers', sans-serif;
+	font-size: 1.7em;
+	
+	
+}
+
+#AllMenus {
+	max-width: 93%; /** 744/ 800 = .93 */
+	float: left;   
+	padding: 20px;
+}
+#AllMenus a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .7em !important;
+}
+#AllMenus a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+
+#currentorder {
+	width: 21%;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #E7EFEF;
+	position: fixed;
+    top: 280px;
+    right: 200px;
+
+}
+#currentorder td {
+	color: black;
+
+}
+#currentorder2 {
+	display: none;
+	width: 80%;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #E7EFEF;
+	padding: 20px;
+
+}
+#currentorder2 td{
+	color: black;
+}
+
+@media all and (max-width: 800px) {
+#currentorder {
+	display:none;
+}
+
+#currentorder2 {
+	display: block;
+}
+#AllMenus a {
+
+	font-size: .5em !important;
+}
+#price  {
+
+	font-size: .5em !important;
+}
+}
+
+
+
+
+
+#ordertable {
+	width: 100%;
+}
+#currentorder{
+	width: 280px;
+}
+#currentorder table { 
+color: #333; /* Lighten up font color */
+font-family: 'Open Sans', sans-serif;
+border-collapse: collapse; 
+border-spacing: 0; 
+background-color: #F3F3F3
+background: #F3F3F3;
+}
+
+#currentorder td, th { border: 1px solid #CCC; height: 30px; } /* Make cells a bit taller */
+
+#currentorder th {
+background: #F3F3F3; /* Light grey background */
+font-weight: bold; /* Make sure they're bold */
+}
+
+/*STYLES FOR CSS POPUP*/
+
+
+#blanket {
+   background-color:#111;
+   opacity: 0.65;
+   *background:none;
+   position:absolute;
+   z-index: 9001;
+   top:0px;
+   left:0px;
+   width:100%;
+}
+
+#popUpDiv {
+	position:absolute;
+	width:400px;
+	height:400px;
+	border:5px solid #9E2424;
+	z-index: 9002;
+	background: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4em;
+	
+	
+}
+
+#popUpDiv a {position:relative; top:20px; left:20px}
+
+@media only screen and (max-width:600px) {
+	#popUpDiv {
+		
+		position:relative;
+		display: block;
+				
+		
+	}
+	
+}
+
+#OrderDiv {
+	margin: 20px 20px 20px 20px;
+	background-color: 
+	
+}
+
+#vendor table { 
+color: #333; /* Lighten up font color */
+font-family: 'Open Sans', sans-serif;
+width: 640px; 
+border-collapse: 
+collapse; border-spacing: 0; 
+}
+
+#readyorderstable table { 
+color: #333; /* Lighten up font color */
+font-family: 'Open Sans', sans-serif;
+width: 60%; 
+border-collapse: 
+collapse; border-spacing: 0; 
+background-color: #F3F3F3
+background: #F3F3F3;
+}
+
+#vendor, #readyorderstable td, th { border: 1px solid #CCC; height: 30px; } /* Make cells a bit taller */
+
+#vendor, #readyorderstable th {
+background: #F3F3F3; /* Light grey background */
+font-weight: bold; /* Make sure they're bold */
+}
+#parent {
+	width: 800px;
+	display: block;
+	}
+#leftcontent, #rightcontent {
+	float: left; 
+	display:inline-block;
+	width: 48%;
+	min-height
+	border: 1px 
+	solid rgba(0,0,0,1);
+	}
+	
+#leftcontent img {
+	width: 100%;
+}
+#parent p {
+	clear: both;
+	} 
+
+
+
+#vendor td {
+ /* Lighter grey background */
+text-align: center; /* Center our text */
+}
+
+/*Styles for all these goddamn tables */
+
+
+#currentorders {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size: .9em;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	margin:15px;
+	border:#ccc 1px solid;
+
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+#currentorders th {
+	padding:21px 25px 22px 25px;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #e0e0e0;
+
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+#currentorders th:first-child{
+	text-align: left;
+	padding-left:20px;
+}
+#currentorders tr:first-child th:first-child{
+	-moz-border-radius-topleft:3px;
+	-webkit-border-top-left-radius:3px;
+	border-top-left-radius:3px;
+}
+#currentorders tr:first-child th:last-child{
+	-moz-border-radius-topright:3px;
+	-webkit-border-top-right-radius:3px;
+	border-top-right-radius:3px;
+}
+#currentorders tr{
+	text-align: center;
+	padding-left:20px;
+}
+#currentorders tr td:first-child{
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+}
+#currentorders tr td {
+	padding:18px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+#currentorders tr.even td{
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+	background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+#currentorders tr:last-child td{
+	border-bottom:0;
+}
+#currentorders tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+#currentorders tr:last-child td:last-child{
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-right-radius:3px;
+}
+#currentorders tr:hover td{
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
+
+.table-container
+{
+	width: 100%;
+	overflow-y: auto;
+	_overflow: auto;
+	margin: 0 0 1em;
+}

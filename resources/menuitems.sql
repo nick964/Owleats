@@ -1,0 +1,11 @@
+ALTER TABLE `items` ADD `quantity` VARCHAR(100);
+ALTER TABLE `items` ADD `notes` VARCHAR(100);
+ALTER TABLE `orders` DROP `quantity`;
+ALTER TABLE `orders` DROP `notes`;
+INSERT INTO menus (name, foodtype, vendor_id, price) VALUES ("Water", "Beverages", 3, "1.00");
+INSERT INTO menus (name, foodtype, vendor_id, price) VALUES ("Iced Tea", "Beverages", 3, "1.50");
+INSERT INTO menus (name, foodtype, vendor_id, price) VALUES ("Water", "Lunch", 3, "1.00");
+INSERT INTO menus (name, foodtype, vendor_id, price) VALUES ("Cheeseburger", "Lunch", 3, "4.00");
+INSERT INTO menus (name, foodtype, vendor_id, price) VALUES ("Hoagie", "Lunch", 3, "5.50");
+INSERT INTO menus (name, foodtype, vendor_id, price) VALUES ("Chicken Wrap", "Lunch", 3, "4.00");
+INSERT INTO menus (name, foodtype, vendor_id, price) VALUES ("Salad", "Lunch", 3, "6.00");
